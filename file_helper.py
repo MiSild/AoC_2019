@@ -1,4 +1,4 @@
-def read_text_into_list(filename):
+def read_text_into_list(filename="input.txt"):
     with open(filename, 'r') as file:
         return file.readlines()
 
